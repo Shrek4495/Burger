@@ -101,4 +101,63 @@ nav{
 .nav_menu_item{
     display: inline-block;
 }
-
+.main{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+.main_menu-title{
+    padding-left: 0;
+    padding-right: 0;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 30px;
+}
+.main_menu_link{
+    display: inline-block;
+}
+.main_title{
+    transition: o.4s ease;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 43px;
+    margin-bottom: 46px;
+}
+.main_title:hover{
+    color: hwb(41 16% 5%);
+}
+.main_menu_list{
+    padding: 0;
+}
+.main_menu_items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-column-gap: 38px;
+}
+.footer{
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #EDA61D 47.4%);
+    background-size: cover;
+    padding: 157px 0 80px;
+    text-align: center;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 45px;
+}
+.footer_item:hover{
+    text-decoration: underline;
+}
+.footer-text{
+    font-weight: 500;
+    padding-bottom: 23px;
+}
+.footer-social-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
